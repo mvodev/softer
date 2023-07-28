@@ -5,9 +5,6 @@
 
 ## Запуск проекта в development режиме на localhost:8000
 ```bash
-git clone https://github.com/mvodev/mindbox.git
+git clone https://github.com/mvodev/softer.git
 npm i && npm run dev
 ```
-
-## Тестовая страница
-[]
