@@ -39,6 +39,7 @@ const App = () => {
 
   const handleModalSuccess = () => {
     setFilesSuccess(false);
+    setSelectedFiles(null);
   }
 
   const handleModalFileError = () => {

@@ -1,11 +1,9 @@
 import { configureStore, ThunkAction, Action } from '@reduxjs/toolkit';
 import authReducer from './authState';
-import fileReducer from './loadState';
 
 export const store = configureStore({
   reducer: {
     auth:authReducer,
-    file:fileReducer,
   },
   middleware: (getDefaultMiddleware) =>
     getDefaultMiddleware({
